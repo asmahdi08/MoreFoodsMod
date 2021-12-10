@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "morefoods",
+  "version": "${version}",
+  "name": "Morefoods",
+  "description": "More foods in minecraft! nom nom nom",
+  "authors": [
+    "ASMahdi"
+  ],
+  "contact": {
+    "repo": "https://github.com/asmahdi08/MoreFoodsMod"
+  },
+  "license": "MIT",
+  "icon": "assets/morefoods/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "morefoods.morefoods.client.MorefoodsClient"
+    ],
+    "main": [
+      "morefoods.morefoods.Morefoods"
+    ]
+  },
+  "mixins": [
+    "morefoods.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.9",
+    "fabric": "*",
+    "minecraft": "1.18"
+  }
+}
